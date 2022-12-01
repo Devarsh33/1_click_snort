@@ -1,19 +1,17 @@
-
 ## Required library
-
-  - gcc 
-  - libpcre3-dev 
-  - zlib1g-dev 
-  - libluajit-5.1-dev 
-  - libpcap-dev 
-  - openssl 
-  - libssl-dev 
-  - libnghttp2-dev 
-  - libdumbnet-dev 
-  - bison 
-  - flex 
-  - libdnet 
-  - autoconf 
-  - libtool
+  - gcc                     -> GNU Compiler Collections which is used to compile mainly C and C++ language
+  - libpcre3-dev            -> support regular expressions whose syntax and semantics are as close as possible to those of the Perl 5 language
+  - zlib1g-dev              -> compression library
+  - libluajit-5.1-dev       -> contains header files and a statically linkable library for LuaJIT
+  - libpcap-dev             -> enables administrators to capture and filter packets
+  - openssl                 -> secure communications over computer networks against eavesdropping or need to identify the party at the other end
+  - libssl-dev              -> A general purpose cryptography toolkit with TLS implementation (development)
+  - libnghttp2-dev          -> implementing the Hypertext Transfer Protocol version 2 (HTTP/2) protocol in C
+  - libdumbnet-dev          -> simplified, portable interface to several low-level networking routines
+  - bison & flex            -> building programs that handle structured input 
+  - libdnet                 -> portable interface to several low-level networking routines
+  - autoconf                -> package of M4 macros that produce shell scripts to automatically configure software source code packages
+  - libtool                 -> generic library support script that hides the complexity of using shared libraries behind a consistent, portable interface
   
 Command:- sudo apt install -y gcc libpcre3-dev zlib1g-dev libluajit-5.1-dev libpcap-dev openssl libssl-dev libnghttp2-dev libdumbnet-dev bison flex libdnet autoconf libtool
+
